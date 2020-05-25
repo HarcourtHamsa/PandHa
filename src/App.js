@@ -1,24 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useEffect} from 'react';
+import NavBar from './components/NavBar';
+import Modal from './components/Modal';
+import Section from './components/Section';
+import CardList from './components/CardList';
+import Jumbotron from './components/Jumbotron';
+import ProjectList from './components/ProjectList';
+import NewsList from './components/NewsList';
+import CallToAction from './components/CallToAction';
+import Footer from './components/Footer';
 import './App.css';
+import FloatingBtn from './components/FloatingBtn';
+import InfoBox from './components/InfoBox';
 
-function App() {
+function startCoundDown () {
+  setTimeout (() => {
+    console.log ('Modal is open');
+    return <Modal />;
+  }, 1000 * 3);
+}
+
+function App () {
+  useEffect (() => {
+    startCoundDown ();
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <InfoBox />
+      <NavBar />
+      <Jumbotron />
+      <Section />
+      <CardList />
+      <ProjectList />
+      <NewsList />
+      <CallToAction />
+      <FloatingBtn />
+      <Footer />
+
     </div>
   );
 }

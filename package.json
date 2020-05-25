@@ -1,17 +1,21 @@
 {
   "name": "lab",
+  "homepage": "https://HarcourtHamsa.github.io/Forex",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "gh-pages": "^2.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0",
     "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
+    "deploy": "npm run build&&gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -30,5 +34,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0"
   }
 }
