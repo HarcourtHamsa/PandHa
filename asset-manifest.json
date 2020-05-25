@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/PandHa/static/css/main.c2f80160.chunk.css",
+    "main.js": "/PandHa/static/js/main.042e3063.chunk.js",
+    "main.js.map": "/PandHa/static/js/main.042e3063.chunk.js.map",
+    "runtime-main.js": "/PandHa/static/js/runtime-main.e07998bc.js",
+    "runtime-main.js.map": "/PandHa/static/js/runtime-main.e07998bc.js.map",
+    "static/js/2.1112de2d.chunk.js": "/PandHa/static/js/2.1112de2d.chunk.js",
+    "static/js/2.1112de2d.chunk.js.map": "/PandHa/static/js/2.1112de2d.chunk.js.map",
+    "index.html": "/PandHa/index.html",
+    "precache-manifest.b910d667b02326ceade0c7de6cb7c32f.js": "/PandHa/precache-manifest.b910d667b02326ceade0c7de6cb7c32f.js",
+    "service-worker.js": "/PandHa/service-worker.js",
+    "static/css/main.c2f80160.chunk.css.map": "/PandHa/static/css/main.c2f80160.chunk.css.map",
+    "static/js/2.1112de2d.chunk.js.LICENSE.txt": "/PandHa/static/js/2.1112de2d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/PandHa/static/media/claudio-hirschberger-VI1UCQe4U4A-unsplash.8ba66915.jpg",
+    "static/media/yancy-min-EzSyFRfNP_c-unsplash.jpg": "/PandHa/static/media/yancy-min-EzSyFRfNP_c-unsplash.44bc0445.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e07998bc.js",
+    "static/js/2.1112de2d.chunk.js",
+    "static/css/main.c2f80160.chunk.css",
+    "static/js/main.042e3063.chunk.js"
+  ]
+}
