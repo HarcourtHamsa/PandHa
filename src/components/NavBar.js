@@ -3,10 +3,10 @@ import React from 'react';
 export default function NavBar () {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark small p-3">
+      <nav className="navbar navbar-expand-lg navbar-light  p-3">
         <div className="container">
           <a className="navbar-brand" href="/">
-            PandHa
+            P.
           </a>
           <button
             className="navbar-toggler border-0 "

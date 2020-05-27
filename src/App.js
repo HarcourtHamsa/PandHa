@@ -1,8 +1,9 @@
-import React, {useEffect} from 'react';
+import React from 'react';
+
 import NavBar from './components/NavBar';
-import Modal from './components/Modal';
 import Section from './components/Section';
 import CardList from './components/CardList';
+
 import Jumbotron from './components/Jumbotron';
 import ProjectList from './components/ProjectList';
 import NewsList from './components/NewsList';
@@ -12,20 +13,10 @@ import './App.css';
 import FloatingBtn from './components/FloatingBtn';
 import InfoBox from './components/InfoBox';
 
-function startCoundDown () {
-  setTimeout (() => {
-    console.log ('Modal is open');
-    return <Modal />;
-  }, 1000 * 3);
-}
-
 function App () {
-  useEffect (() => {
-    startCoundDown ();
-  }, []);
-
   return (
     <div className="App">
+
       <InfoBox />
       <NavBar />
       <Jumbotron />

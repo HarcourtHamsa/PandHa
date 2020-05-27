@@ -1,32 +1,38 @@
 import React from 'react';
 import Card from './Card';
-import {RiWallet3Line, RiCompasses2Line, RiBarChartBoxLine} from 'react-icons/ri';
+import {
+  RiWallet3Line,
+  RiCompasses2Line,
+  RiBarChartBoxLine,
+} from 'react-icons/ri';
 
 function CardList () {
   return (
     <React.Fragment>
-      <div className="bg-light">
+      <div className="">
         <div className="container">
           <div className="row">
             <div className="col-xl-4">
               <Card
-                icon={<RiWallet3Line size="30" color="#fccd04"/>}
+                icon={<RiWallet3Line size="50" color="#fccd04" />}
                 title="Build on your terms"
-                body="Card body should contain something"
+                body="At PandHa, you are our priority. Let's make your dream come
+                true and guess what? It's on your terms."
               />
             </div>
             <div className="col-xl-4">
               <Card
-                icon={<RiCompasses2Line size="30" color="#fccd04"/>}
-                title="Full ervice engineering"
-                body="Card body should contain something"
+                icon={<RiCompasses2Line size="50" color="#fccd04" />}
+                title="Full service engineering"
+                body="We use the best enginerring practices to
+                 build and furnish your home to give you that touch of class."
               />
             </div>
             <div className="col-xl-4">
               <Card
-              icon={<RiBarChartBoxLine size="30" color="#fccd04"/>}
+                icon={<RiBarChartBoxLine size="50" color="#fccd04" />}
                 title="Consultation"
-                body="Card body should contain something"
+                body="Are you worried about your dream home? Why not speak to a counsultant"
               />
             </div>
           </div>

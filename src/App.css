@@ -24,7 +24,7 @@ body {
 }
 
 .navbar{
-  background-color: #0d19a3;
+  background-color: white;
 }
 
 .cta{
@@ -38,15 +38,15 @@ body {
 }
 
 .jumbotron {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/claudio-hirschberger-VI1UCQe4U4A-unsplash.jpg') no-repeat center;
-  background-size: cover;
   height: 600px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
  
  }
+
+ .modal{
+   width: 400px;
+   height: 300px;
+ }
+
 
 .btn-outline-white{
   border: 1px solid white;
@@ -58,7 +58,12 @@ body {
   background-color: #fccd04;
   padding: 12px 25px;
 }
-
+.btn-black{
+  color: black;
+  border-radius: 0;
+  border: 2px solid black;
+  padding: 12px 25px;
+}
 input{
   padding: 12px 25px;
 }
@@ -71,8 +76,6 @@ input{
 
 .card {
   background: white;
-  box-shadow: 0 26px 30px -14px rgba(0,102,245,0.08);
-  border-radius: 12px;
   padding: 20px 30px;
   margin: 60px 28px 80px;
   display: -ms-flexbox;

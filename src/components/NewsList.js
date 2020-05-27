@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from './Card';
 import img from '../images/yancy-min-EzSyFRfNP_c-unsplash.jpg';
+import img2 from '../images/you-x-ventures-0K7GgiA8lVE-unsplash.jpg';
 
 function NewsList () {
   return (
@@ -25,7 +26,7 @@ function NewsList () {
             </div>
             <div className="col-xl-6">
               <Card
-                img={img}
+                img={img2}
                 title="Meet Jason & Jesse"
                 body="
                 At KNA Structural Engineers, we believe quality
