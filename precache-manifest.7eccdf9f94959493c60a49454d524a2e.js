@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5bc0bb4e6aeb0623844562f9406e41ba",
+    "revision": "45ff1f142fd6be7f297697c4bfe1d238",
     "url": "/PandHa/index.html"
   },
   {
-    "revision": "3c49f411fe89468c93f9",
-    "url": "/PandHa/static/css/main.6973cbd7.chunk.css"
+    "revision": "30443a7f288d1f42ae1c",
+    "url": "/PandHa/static/css/main.009bc385.chunk.css"
   },
   {
-    "revision": "56062df3dbba6fd694e4",
-    "url": "/PandHa/static/js/2.80b3c1ca.chunk.js"
+    "revision": "85e89d4e62d2744d51ea",
+    "url": "/PandHa/static/js/2.84afdd5a.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/PandHa/static/js/2.80b3c1ca.chunk.js.LICENSE.txt"
+    "url": "/PandHa/static/js/2.84afdd5a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3c49f411fe89468c93f9",
-    "url": "/PandHa/static/js/main.1e0a050f.chunk.js"
+    "revision": "30443a7f288d1f42ae1c",
+    "url": "/PandHa/static/js/main.a9748509.chunk.js"
   },
   {
-    "revision": "c73dbda0e5296ab91936",
-    "url": "/PandHa/static/js/runtime-main.e07998bc.js"
+    "revision": "3a18f9c71b1034f07436",
+    "url": "/PandHa/static/js/runtime-main.488ccf34.js"
   },
   {
     "revision": "0d22c4f940036858422c4798abdea567",
