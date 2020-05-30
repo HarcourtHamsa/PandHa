@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "25517fdcddb78b402736557ca3962d0a",
+    "revision": "5bc0bb4e6aeb0623844562f9406e41ba",
     "url": "/PandHa/index.html"
   },
   {
-    "revision": "9c44d015684248098cdf",
-    "url": "/PandHa/static/css/main.0cee2529.chunk.css"
+    "revision": "3c49f411fe89468c93f9",
+    "url": "/PandHa/static/css/main.6973cbd7.chunk.css"
   },
   {
-    "revision": "4957a1c80ba1601e87d5",
-    "url": "/PandHa/static/js/2.f0aec092.chunk.js"
+    "revision": "56062df3dbba6fd694e4",
+    "url": "/PandHa/static/js/2.80b3c1ca.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/PandHa/static/js/2.f0aec092.chunk.js.LICENSE.txt"
+    "revision": "c64c486544348f10a6d6c716950bc223",
+    "url": "/PandHa/static/js/2.80b3c1ca.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9c44d015684248098cdf",
-    "url": "/PandHa/static/js/main.ffbfc8c8.chunk.js"
+    "revision": "3c49f411fe89468c93f9",
+    "url": "/PandHa/static/js/main.1e0a050f.chunk.js"
   },
   {
     "revision": "c73dbda0e5296ab91936",
@@ -32,6 +32,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PandHa/static/media/alexander-schimmeck-39R-s_81wE0-unsplash.569231c5.jpg"
   },
   {
+    "revision": "dc4d4f6695de478160d5f2408b93b851",
+    "url": "/PandHa/static/media/anny.dc4d4f66.jpg"
+  },
+  {
     "revision": "c71d25c84e1f5a079591c592952a8c21",
     "url": "/PandHa/static/media/christopher-jolly-GqbU78bdJFM-unsplash.c71d25c8.jpg"
   },
@@ -40,8 +44,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PandHa/static/media/claudio-hirschberger-VI1UCQe4U4A-unsplash.8ba66915.jpg"
   },
   {
+    "revision": "7df63512f0bdb7227bb8b828d7e6b325",
+    "url": "/PandHa/static/media/cooper.7df63512.jpg"
+  },
+  {
     "revision": "9bb7c9e25b718f6dfef77e779e072159",
     "url": "/PandHa/static/media/curology-6CJg-fOTYs4-unsplash.9bb7c9e2.jpg"
+  },
+  {
+    "revision": "742e9057c3c2a71841c1210be981d4e2",
+    "url": "/PandHa/static/media/ellen.742e9057.jpg"
   },
   {
     "revision": "d17ffaa8f14d277c946fe73adf66c52e",
