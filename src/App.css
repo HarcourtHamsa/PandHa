@@ -12,11 +12,25 @@ body {
   width: 300px;
 }
 
+.modal{
+  position: fixed;
+  z-index: 1;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+   background-color: rgba(0, 0, 0, 0.5);
+   top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+}
+
 .floating-btn{
   position: absolute;
   top: 80%;
   right: 1%;
-  background-color: #0d19a3;
+  background-color: #17a2b8;
   color: white;
   position: fixed;
   border-radius: 3em;
@@ -24,7 +38,7 @@ body {
 }
 
 .navbar{
-  background-color: white;
+  background-color: black;
 }
 
 .cta{
@@ -42,12 +56,6 @@ body {
  
  }
 
- .modal{
-   width: 400px;
-   height: 300px;
- }
-
-
 .btn-outline-white{
   border: 1px solid white;
   border-radius: 3em;
@@ -58,6 +66,15 @@ body {
   background-color: #fccd04;
   padding: 12px 25px;
 }
+
+.top-right{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 3px;
+  color: white;
+  background-color: black;
+}
 .btn-black{
   color: black;
   border-radius: 0;
@@ -66,6 +83,8 @@ body {
 }
 input{
   padding: 12px 25px;
+  background-color: #f8f9fa;
+  border: 0;
 }
 
 #footer .footer-newsletter form input[type="email"] {

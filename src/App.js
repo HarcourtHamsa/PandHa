@@ -1,34 +1,18 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Landing from './components/Landing';
+import About from './components/About';
+import Contact from './components/Contact';
 
-import NavBar from './components/NavBar';
-import Section from './components/Section';
-import CardList from './components/CardList';
-
-import Jumbotron from './components/Jumbotron';
-import ProjectList from './components/ProjectList';
-import NewsList from './components/NewsList';
-import CallToAction from './components/CallToAction';
-import Footer from './components/Footer';
-import './App.css';
-import FloatingBtn from './components/FloatingBtn';
-import InfoBox from './components/InfoBox';
-
-function App () {
+function App() {
   return (
-    <div className="App">
-
-      <InfoBox />
-      <NavBar />
-      <Jumbotron />
-      <Section />
-      <CardList />
-      <ProjectList />
-      <NewsList />
-      <CallToAction />
-      <FloatingBtn />
-      <Footer />
-
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Landing} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
+      </Switch>
+    </Router>
   );
 }
 
