@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/PandHa/static/css/main.2c555918.chunk.css",
-    "main.js": "/PandHa/static/js/main.5a7dec5a.chunk.js",
-    "main.js.map": "/PandHa/static/js/main.5a7dec5a.chunk.js.map",
-    "runtime-main.js": "/PandHa/static/js/runtime-main.488ccf34.js",
-    "runtime-main.js.map": "/PandHa/static/js/runtime-main.488ccf34.js.map",
-    "static/js/2.f6f884d0.chunk.js": "/PandHa/static/js/2.f6f884d0.chunk.js",
-    "static/js/2.f6f884d0.chunk.js.map": "/PandHa/static/js/2.f6f884d0.chunk.js.map",
+    "main.css": "/PandHa/static/css/main.edfd9edc.chunk.css",
+    "main.js": "/PandHa/static/js/main.b154f70f.chunk.js",
+    "main.js.map": "/PandHa/static/js/main.b154f70f.chunk.js.map",
+    "runtime-main.js": "/PandHa/static/js/runtime-main.1d4e3bee.js",
+    "runtime-main.js.map": "/PandHa/static/js/runtime-main.1d4e3bee.js.map",
+    "static/js/2.52919b78.chunk.js": "/PandHa/static/js/2.52919b78.chunk.js",
+    "static/js/2.52919b78.chunk.js.map": "/PandHa/static/js/2.52919b78.chunk.js.map",
     "index.html": "/PandHa/index.html",
-    "precache-manifest.0a234b351a2db79fdf0887bcd6bd12e0.js": "/PandHa/precache-manifest.0a234b351a2db79fdf0887bcd6bd12e0.js",
+    "precache-manifest.3376a05dd7e36aa8606d94609ccc4fed.js": "/PandHa/precache-manifest.3376a05dd7e36aa8606d94609ccc4fed.js",
     "service-worker.js": "/PandHa/service-worker.js",
-    "static/css/main.2c555918.chunk.css.map": "/PandHa/static/css/main.2c555918.chunk.css.map",
-    "static/js/2.f6f884d0.chunk.js.LICENSE.txt": "/PandHa/static/js/2.f6f884d0.chunk.js.LICENSE.txt",
+    "static/css/main.edfd9edc.chunk.css.map": "/PandHa/static/css/main.edfd9edc.chunk.css.map",
+    "static/js/2.52919b78.chunk.js.LICENSE.txt": "/PandHa/static/js/2.52919b78.chunk.js.LICENSE.txt",
     "static/media/App.css": "/PandHa/static/media/3547223.0d22c4f9.jpg",
     "static/media/alexander-schimmeck-39R-s_81wE0-unsplash.jpg": "/PandHa/static/media/alexander-schimmeck-39R-s_81wE0-unsplash.569231c5.jpg",
     "static/media/anny.jpg": "/PandHa/static/media/anny.dc4d4f66.jpg",
@@ -28,9 +28,9 @@
     "static/media/you-x-ventures-0K7GgiA8lVE-unsplash.jpg": "/PandHa/static/media/you-x-ventures-0K7GgiA8lVE-unsplash.d70667d3.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.488ccf34.js",
-    "static/js/2.f6f884d0.chunk.js",
-    "static/css/main.2c555918.chunk.css",
-    "static/js/main.5a7dec5a.chunk.js"
+    "static/js/runtime-main.1d4e3bee.js",
+    "static/js/2.52919b78.chunk.js",
+    "static/css/main.edfd9edc.chunk.css",
+    "static/js/main.b154f70f.chunk.js"
   ]
 }

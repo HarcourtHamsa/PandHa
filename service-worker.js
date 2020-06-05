@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/PandHa/precache-manifest.0a234b351a2db79fdf0887bcd6bd12e0.js"
+  "/PandHa/precache-manifest.3376a05dd7e36aa8606d94609ccc4fed.js"
 );
 
 self.addEventListener('message', (event) => {
