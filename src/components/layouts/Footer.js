@@ -1,8 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Modal from './Modal';
 
-function Footer () {
+function Footer() {
+  const [modalIsOpen, setModalIsOpen] = useState(false)
+
+  const openModal = (e) => {
+    e.preventDefault()
+    setModalIsOpen(true)
+    console.log("Modal is open from footer")
+  }
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+  };
+
   return (
     <React.Fragment>
+      {modalIsOpen
+        ? <Modal onClose={closeModal} avoidEmail={true}>
+          <h5>You've successfully subscribed  <br /> to our newsletter!</h5><br />
+
+        </Modal>
+        : null}
+
       <div className=" small">
         <hr />
         <div className="container p-5">
@@ -26,8 +46,8 @@ function Footer () {
               <p className="text-muted">
                 Tamen quem nulla quae legam multos aute sint culpa legam noster magna
               </p>
-              <form>
-                <input type="email" placeholder="Enter email" /><br /><br />
+              <form onSubmit={openModal}>
+                <input type="email" placeholder="Enter email" required/><br /><br />
                 <button className="btn btn-blue">
                   <small>Subscribe</small></button>
               </form>

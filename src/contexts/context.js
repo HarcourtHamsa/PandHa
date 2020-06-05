@@ -9,7 +9,7 @@ const AppProvider = (props) => {
     useEffect(() => {
         setTimeout(() => {
             setIsOpen(true)
-        }, 1000 * 3)
+        }, 1000 * 7)
     }, [setIsOpen])
 
 

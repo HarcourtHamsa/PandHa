@@ -4,6 +4,12 @@ body {
   
 }
 
+.carousel-inner .carousel-item {
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+}
+
 .center{
   position: absolute;
   top: 50%;

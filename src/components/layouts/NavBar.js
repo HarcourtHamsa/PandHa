@@ -27,7 +27,7 @@ export default function NavBar() {
                 Home
               </Link>
               <Link to="/about" className="nav-item nav-link">
-                About
+                About us
               </Link>
               <Link to="/" className="nav-item nav-link">
                 News

@@ -21,18 +21,27 @@ function MyModal(props) {
           border: '3px solid black'
         }}>
           <RiCloseLine onClick={props.onClose} size="30" className=" top-right" /><br /> <br />
-          <RiMailLine size="50" className="mb-4" />< br />
+
+          <div >
+            <RiMailLine size="50" className="mb-4" /> < br />
+          </div>
+
+
 
           {props.children}
           <hr />
-          <form>
-            <input type="email" placeholder="Enter your email" /><br /><br />
-            <button onClick={props.onClose} className="btn btn-black">
-              <small>
-                Subscribe
-                </small>
-            </button>
-          </form>
+          {props.avoidEmail ?
+            null :
+            <form onSubmit={props.onClose}>
+              <input type="email" placeholder="Enter your email" required/><br /><br />
+              <button className="btn btn-black">
+                <small>
+                  Subscribe
+              </small>
+              </button>
+            </form>
+          }
+
 
         </div>
 

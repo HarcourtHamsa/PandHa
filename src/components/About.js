@@ -23,11 +23,11 @@ function About() {
                     <div className="col-xl-4">
                     <Card 
                     img={anny_img} 
-                    title="Catherine Ann Dawn, CEO/Owner" 
-                    body=" Introducing Susan! She grew up with an enterprising
-                    father named Sam. You can guess where our namesake came
+                    title="Catherine Anna Dawn, CEO/Owner" 
+                    body=" Introducing Anna! She grew up with an enterprising
+                    father named Dawn. You can guess where our namesake came
                     from! With the same entrepreneurial spirit & big dreams
-                     as her dad, Susan has carved out a successful niche in
+                     as her dad, Anna has carved out a successful niche in
                      our little city. Her favorite things in life are simple
                       pleasures, like a good fire & well curated poetry.
                     She is a proud mother to three exceptional girls &
