@@ -40,8 +40,9 @@ function Landing() {
 
   return (
     <React.Fragment>
-      <InfoBox />
+
       <NavBar />
+      <InfoBox />
 
       {isOpen
         ? <Modal onClose={closeModal}>

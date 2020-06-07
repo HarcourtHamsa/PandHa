@@ -23,7 +23,7 @@ function Footer() {
         </Modal>
         : null}
 
-      <div className=" small">
+      <div className="footer small" id="footer">
         <hr />
         <div className="container p-5">
           <div className="row">

@@ -27,8 +27,9 @@ function Contact() {
                 </Modal>
                 : null}
 
-            <InfoBox />
+            
             <NavBar />
+            <InfoBox />
             <FloatingBtn />
             <div className="p-5 bg-light">
                 Contact us

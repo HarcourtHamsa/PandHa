@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Section () {
   return (
@@ -20,7 +21,7 @@ function Section () {
             We are focused on building
             and furnishing home to suite your needs
           </p>
-          <a href="/" className="btn btn-black">More about us</a>
+          <Link href="/about" className="btn btn-black">More about us</Link>
         </div>
       </div>
     </React.Fragment>

@@ -18,7 +18,7 @@ function About() {
             <div className="p-5 bg-light">
                 Meet the Team
             </div>
-            <div className="container mt-3 ">
+            <div className="container mt-3 text-justify">
                 <div className="row">
                     <div className="col-xl-4">
                     <Card 

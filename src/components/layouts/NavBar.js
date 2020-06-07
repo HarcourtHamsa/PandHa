@@ -10,13 +10,14 @@ export default function NavBar() {
             CAD Design and Structural
           </Link>
           <button
-            className="navbar-toggler border-0 "
+            className="navbar-toggler border-0"
             type="button"
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            style={{color: 'white'}}
           >
             <span className="navbar-toggler-icon" />
           </button>
